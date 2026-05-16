@@ -431,50 +431,6 @@ footer {
   }
 }
 
-.publication-list {
-  display: grid;
-  gap: 18px;
-}
-
-.publication-item {
-  background: rgba(255, 255, 255, 0.82);
-  border: 1px solid rgba(229, 231, 235, 0.95);
-  border-radius: var(--radius);
-  padding: 26px;
-  box-shadow: 0 14px 40px rgba(15, 23, 42, 0.05);
-}
-
-.pub-title {
-  color: var(--text) !important;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.5;
-  margin: 0 0 10px !important;
-}
-
-.pub-authors {
-  font-size: 15px;
-  margin: 0 0 6px !important;
-  color: var(--muted);
-}
-
-.pub-venue {
-  font-size: 15px;
-  color: #6366f1 !important;
-  font-weight: 800;
-  margin: 0 0 8px !important;
-}
-
-.pub-tags {
-  display: inline-block;
-  margin: 4px 0 0 !important;
-  padding: 6px 10px;
-  border-radius: 999px;
-  background: #eef2ff;
-  color: #4338ca !important;
-  font-size: 13px;
-  font-weight: 700;
-}
 
 .education-list {
   display: grid;
@@ -634,20 +590,13 @@ footer {
   }
 }
 
-@media (max-width: 900px) {
-  .publication-with-image {
-    grid-template-columns: 1fr;
-  }
-
-  .publication-img {
-    height: auto;
-    max-height: 260px;
-  }
-}
+/* =========================
+   Publications Page
+========================= */
 
 .publication-list {
   display: grid;
-  gap: 24px;
+  gap: 28px;
 }
 
 .publication-item {
