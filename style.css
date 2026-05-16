@@ -665,3 +665,12 @@ footer {
   background: #f0fdf4;
   color: #166534;
 }
+
+.edu-logo {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  object-fit: contain;
+  margin-top: 14px;
+  border-radius: 10px;
+}
