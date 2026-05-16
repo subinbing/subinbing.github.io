@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,42 +6,221 @@
   <title>Subin Park</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-  <main class="container">
-    <section class="hero">
-      <h1>Subin Park</h1>
-      <p class="subtitle">Ph.D. Student in Artificial Intelligence</p>
-      <p>Kyung Hee University · Visual AI Lab</p>
 
-      <div class="links">
-        <a href="files/Subin_Park_CV.pdf">CV</a>
-        <a href="https://github.com/subinbing7445">GitHub</a>
-        <a href="mailto:subinbing7445@gmail.com">Email</a>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#about" class="logo">Subin Park</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#research">Research</a>
+        <a href="#area">Area</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="about" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Ph.D. Student · Artificial Intelligence</p>
+        <h1>Subin Park</h1>
+
+        <p class="intro">
+          Hello! I am currently a <strong>Ph.D. student</strong> in the
+          <strong>Department of Artificial Intelligence</strong> at
+          <strong>Kyung Hee University</strong>, working in the
+          <strong>Visual AI Lab</strong>.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="mailto:subin.park@khu.ac.kr" class="button primary">Email</a>
+          <a href="https://github.com/subinbing" class="button" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/subinbing7445/" class="button" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img src="assets/대학휘장-02.jpg" alt="Subin Park" class="profile-img" />
+        <div class="profile-info">
+          <h2>Subin Park</h2>
+          <p>Kyung Hee University</p>
+          <p>Visual AI Lab</p>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h2>Research Interests</h2>
-      <ul>
-        <li>Multimodal Learning</li>
-        <li>Audio-Visual Localization</li>
-        <li>Video Understanding</li>
-        <li>Multimodal Large Language Models</li>
-      </ul>
+    <!-- Research Interests -->
+    <section id="research" class="section">
+      <div class="section-title">
+        <span>Research</span>
+        <h2>Research Interests</h2>
+      </div>
+
+      <div class="tag-list">
+        <span>Multi-modal Learning</span>
+        <span>Sound Source Localization</span>
+        <span>Audio-Visual Localization</span>
+        <span>Computer Vision</span>
+        <span>Video Understanding</span>
+      </div>
     </section>
 
-    <section>
-      <h2>Projects</h2>
+    <!-- Quick Links -->
+    <section class="section">
+      <div class="section-title">
+        <span>Links</span>
+        <h2>Academic Records</h2>
+      </div>
+
+      <div class="link-grid">
+        <a class="link-card" href="https://www.notion.so/Publications-32408b9b54798021872cda922739c699?pvs=21" target="_blank">
+          <h3>Publications</h3>
+          <p>Research papers and academic publications.</p>
+        </a>
+
+        <a class="link-card" href="https://www.notion.so/32408b9b547980d69184e0a29dfdab74?pvs=21" target="_blank">
+          <h3>Projects</h3>
+          <p>Research projects and implementation works.</p>
+        </a>
+
+        <a class="link-card" href="https://www.notion.so/32408b9b5479803ea55edc7b6c462e60?pvs=21" target="_blank">
+          <h3>Certification</h3>
+          <p>Certificates and qualifications.</p>
+        </a>
+
+        <a class="link-card" href="https://www.notion.so/32408b9b547980baaf75ee73d92560ed?pvs=21" target="_blank">
+          <h3>Software Registrations</h3>
+          <p>Software registrations and copyrights.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="section-title">
+        <span>Background</span>
+        <h2>Education</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2026 ~ Present</div>
+          <div class="timeline-content">
+            <h3>Kyung Hee University</h3>
+            <p class="degree">Doctoral Degree</p>
+            <p>Department of Artificial Intelligence</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2023 ~ 2025</div>
+          <div class="timeline-content">
+            <h3>Sejong University</h3>
+            <p class="degree">Master’s Degree</p>
+            <p>Department of Artificial Intelligence · GPA 4.33 / 4.5</p>
+            <p>Convergence Major: Department of Convergence Engineering for Metaverse</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Area -->
+    <section id="area" class="section">
+      <div class="section-title">
+        <span>Expertise</span>
+        <h2>My Area</h2>
+      </div>
+
+      <div class="area-grid">
+        <div class="area-card">
+          <h3>Computer Vision</h3>
+          <ul>
+            <li>Crop Pest / Disease Detection</li>
+          </ul>
+        </div>
+
+        <div class="area-card">
+          <h3>Multi-modal</h3>
+          <ul>
+            <li>Object Segmentation using Text-Prompt</li>
+            <li>Drama / News Summarization</li>
+          </ul>
+        </div>
+
+        <div class="area-card">
+          <h3>Sound Source Localization</h3>
+          <ul>
+            <li>Audio-Visual Sound Source Localization</li>
+            <li>Image / Video and Audio Understanding</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Project -->
+    <section class="section">
+      <div class="section-title">
+        <span>Selected Work</span>
+        <h2>Featured Project</h2>
+      </div>
 
       <div class="project-card">
-        <h3>GAR-SSL</h3>
-        <p>
-          Generate, Analyze, and Refine: Training-Free Sound Source Localization
-          via MLLM Meta-Reasoning.
-        </p>
-        <a href="https://visualaikhu.github.io/GAR-SSL/">Project Page</a>
+        <div>
+          <h3>GAR-SSL</h3>
+          <p>
+            Generate, Analyze, and Refine: Training-Free Sound Source Localization
+            via MLLM Meta-Reasoning.
+          </p>
+        </div>
+        <a href="https://visualaikhu.github.io/GAR-SSL/" target="_blank" class="button primary">
+          View Project
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+      <div class="section-title">
+        <span>Contact</span>
+        <h2>Get in Touch</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Email</h3>
+          <a href="mailto:subin.park@khu.ac.kr">subin.park@khu.ac.kr</a>
+        </div>
+
+        <div class="contact-card">
+          <h3>GitHub</h3>
+          <a href="https://github.com/subinbing" target="_blank">github.com/subinbing</a>
+        </div>
+
+        <div class="contact-card">
+          <h3>LinkedIn</h3>
+          <a href="https://www.linkedin.com/in/subinbing7445/" target="_blank">linkedin.com/in/subinbing7445</a>
+        </div>
+      </div>
+
+      <div class="qr-grid">
+        <div class="qr-card">
+          <img src="assets/qr-code-github.png" alt="GitHub QR Code" />
+          <p>GitHub</p>
+        </div>
+
+        <div class="qr-card">
+          <img src="assets/qr-code-linkedin.png" alt="LinkedIn QR Code" />
+          <p>LinkedIn</p>
+        </div>
       </div>
     </section>
   </main>
+
+  <footer>
+    <p>© 2026 Subin Park. All rights reserved.</p>
+  </footer>
 </body>
 </html>
