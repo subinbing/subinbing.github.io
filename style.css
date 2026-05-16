@@ -664,3 +664,14 @@ footer {
     max-height: 260px;
   }
 }
+
+.pub-small-img {
+  width: 180px;
+  height: 105px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid rgba(229, 231, 235, 0.95);
+  background: #eef2f7;
+  margin-bottom: 16px;
+  display: block;
+}
