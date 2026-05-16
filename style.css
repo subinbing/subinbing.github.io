@@ -607,5 +607,66 @@ footer {
   display: block;
   object-fit: cover;
 }
-  }
+
+.publication-list {
+  display: grid;
+  gap: 18px;
+}
+
+.publication-item {
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(229, 231, 235, 0.95);
+  border-radius: var(--radius);
+  padding: 28px;
+  box-shadow: 0 14px 40px rgba(15, 23, 42, 0.05);
+}
+
+.pub-title {
+  color: var(--text);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.45;
+  letter-spacing: -0.03em;
+  margin: 0 0 10px;
+}
+
+.pub-authors {
+  font-size: 15px;
+  color: var(--muted);
+  margin: 0 0 6px;
+}
+
+.pub-venue {
+  font-size: 15px;
+  color: #6366f1;
+  font-weight: 800;
+  margin: 0 0 10px;
+}
+
+.pub-tags {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #4338ca;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.pub-header {
+  margin-bottom: 20px;
+}
+
+.pub-figure {
+  margin-top: 20px;
+  border-top: 1px solid rgba(229, 231, 235, 0.9);
+  padding-top: 20px;
+}
+
+.pub-figure img {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid rgba(229, 231, 235, 0.95);
+  display: block;
+  object-fit: cover;
 }
