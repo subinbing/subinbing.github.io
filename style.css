@@ -600,6 +600,10 @@ footer {
   border-radius: var(--radius);
   padding: 28px;
   box-shadow: 0 14px 40px rgba(15, 23, 42, 0.05);
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 28px;
+  align-items: center;
 }
 
 .pub-title {
