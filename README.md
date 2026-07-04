@@ -2,6 +2,6 @@
 
 This repository contains the source files for my personal academic website.
 
-The website is published from the `personal_page` branch using GitHub Pages.
+The website is deployed from the `personal_page` branch using GitHub Pages.
 
-Website: subinbing.github.io/
+**Website:** https://subinbing.github.io/
